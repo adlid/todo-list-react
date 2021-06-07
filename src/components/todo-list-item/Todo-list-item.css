@@ -1,0 +1,41 @@
+.todo-list-item {
+
+}
+.todo-list-item-label:hover{
+    cursor: pointer;
+}
+.todo-list-item.done .todo-list-item-label {
+    text-decoration: line-through;
+    color: burlywood;
+}
+.todo-list-item.important .todo-list-item-label{
+    font-weight: bold;
+    color: steelblue;
+}
+.btn{
+    border: none;
+    background-color: white;
+   
+    height: 25px;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    margin-left: 20px;
+}
+.btn-green:focus{
+    background-color: green;
+    cursor: pointer;
+}
+.btn-red:hover{
+    background-color: red;
+    cursor: pointer;
+    color: red;
+}
+.btn-red{
+   border-color: red;
+   width: 25px;
+}
+.btn-green{
+    border-color: green;
+    width: 25px;
+}
